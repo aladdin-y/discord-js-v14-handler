@@ -1,0 +1,39 @@
+{
+  "name": "discordjs-v14-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "node": "^16.14.0"
+  },
+  "dependencies": {
+    "@discordjs/rest": "^0.4.0-dev.1648166871.cedd053",
+    "@napi-rs/canvas": "^0.1.43",
+    "ascii-table": "^0.0.9",
+    "axios": "^1.4.0",
+    "chalk": "^2.4.1",
+    "colors": "^1.4.0",
+    "discord-api-types": "^0.30.0",
+    "discord-banner": "^1.6.7",
+    "discord-inviter": "^0.9.3",
+    "discord.js": "^14.0.2",
+    "discordxp-sql": "^1.0.4",
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security",
+    "log-update": "^5.0.1",
+    "moment": "^2.29.4",
+    "ms": "^2.1.3",
+    "mysql2": "^3.5.1",
+    "pro-tax": "^1.0.9",
+    "probot-tax-npm": "^1.0.5",
+    "randomcolor": "^0.6.2",
+    "simply-xp": "^1.3.4",
+    "undici": "^5.22.1"
+  }
+}
