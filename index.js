@@ -20,7 +20,6 @@ client.config = config;
 client.prefix = config.prefix;
 let db = require('./db.js');
 
-if(config.status == true){
 
 const pool = mysql.createPool({
 	host: config.db.ip,
@@ -32,7 +31,6 @@ const pool = mysql.createPool({
   client.db = db;
 
 
-}
 	const keepAlive = require('./keepAlive.js')
 keepAlive()
 module.exports = client;
